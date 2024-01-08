@@ -26,6 +26,7 @@ onLoad();
 </script>
 
 <template>
+  <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests" />
   <!-- 公共头部 -->
   <AppHeader />
   <!-- 频道模块 -->
