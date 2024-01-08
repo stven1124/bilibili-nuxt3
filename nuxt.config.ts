@@ -5,5 +5,12 @@ export default defineNuxtConfig({
   // 調試工具
   devtools: { enabled: true },
   // 應用模塊
-  modules: ['@vant/nuxt'],
+  modules: ['@vant/nuxt', 'nuxt-security',],
+  security: {
+    headers: {
+      contentSecurityPolicy: {
+        'img-src': ["'self'", 'data:', 'https://i0.hdslb.com'],
+      },
+    },
+  },
 })
