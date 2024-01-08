@@ -7,6 +7,7 @@ useSeoMeta({
     'bilibili是國內知名的線上影片彈幕網站，擁有最棒的ACG氛圍，嗶哩嗶哩內容豐富多元，涵蓋動漫、電影、二次元舞蹈影片、線上音樂、娛樂時尚、科技生活、鬼畜影片等。 下載客戶端還可離線下載電影、動漫。',
   // 搜索關鍵詞
   keywords: 'B站,bilibili,嗶哩嗶哩,嗶哩嗶哩動畫,動漫,電影,線上動漫,高清電影',
+  referrer: 'no-referrer',
   meta: [
     { name: 'referrer', content: 'no-referrer' },
   ]
