@@ -9,7 +9,7 @@ useSeoMeta({
   keywords: 'B站,bilibili,嗶哩嗶哩,嗶哩嗶哩動畫,動漫,電影,線上動漫,高清電影',
   referrer: 'no-referrer',
   meta: [
-    { name: 'referrer', content: 'no-referrer' },
+    { 'http-equiv': 'Content-Security-Policy', content: 'upgrade-insecure-requests' }
   ]
 });
 </script>
